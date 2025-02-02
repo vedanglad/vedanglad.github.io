@@ -1,6 +1,6 @@
 # Personal Website
 
-This github repository serves as my portfolio webite, where you can get to know me and my learning journey.
+This github repository serves as my portfolio website, where you can get to know me and my learning journey.
 
 Feel free to explore my website here: [https://vedanglad.github.io](https://vedanglad.github.io/)
 
