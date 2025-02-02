@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedang Lad - Personal Portfolio</title>
+    <!--
+    - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+    <!--
+    - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--
+    - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--
+    - #MAIN
+    -->
+    <main>
+        <!--
+        - #SIDEBAR
+        -->
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.jpg" alt="Vedang Lad" width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Vedang Lad">Vedang Lad</h1>
+                    <p class="title">Offensive Security Enthusiast</p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:vedangslad31@gmail.com" class="contact-link">vedangslad31@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>College Park, Maryland, USA</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/vedang-lad" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://github.com/vedanglad" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+                <div class="resume-download">
+                    <a href="./assets/resume/Resume_Vedang_Lad.pdf" download="Vedang_Lad_Resume.pdf" class="download-btn">
+                        <ion-icon name="download-outline"></ion-icon>
+                        Resume
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+
+        <!--
+        - #main-content
+        -->
+        <div class="main-content">
+            
+            <!--
+            - #NAVBAR
+            -->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Projects</button>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <!--
+            - #ABOUT
+            -->
+            <article class="about  active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+                <section class="about-text">
+                    <p>
+                        Hey there! I am a cybersecurity graduate interested in offensive security, particularly vulnerability assessment and penetration testing. I enjoy breaking into systems (legally!), understanding how they work, and discovering ways to enhance their security.
+                    </p>
+                    <p>
+                        This portfolio website showcases my career progress, including my work experience at various organizations, educational background from multiple institutions, skills, personal and academic projects, and published research.
+                    </p>
+                    <p>
+                        I am always learning, experimenting, and seeking new challenges in the field of cybersecurity. To further develop my skills, I actively solve challenges on HackTheBox (HTB) and TryHackMe (THM), exploring different attack techniques and security concepts.
+                    </p>
+                    <p>
+                        One of my ongoing projects involves learning to write professional penetration testing reports. I aim to continuously refine my skills, stay updated on emerging threats, and help others learn how to conduct thorough security assessments and improve their reporting techniques.
+                    </p>
+                    <p>
+                        I also enjoy automating tasks whenever possible, whether writing helpful bash scripts to assist with my daily tasks or streamlining repetitive processes. This approach boosts efficiency and allows me to focus more on tackling real challenges.
+                    </p>
+                    <p>
+                        I am actively seeking challenging opportunities in cybersecurity that will test and develop my skills. Please feel free to explore my work and reach out if you would like to connect!
+                    </p>
+                </section>
+
+            </article>
+
+
+            <!--
+            - #RESUME
+            -->
+            <article class="resume" data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <!--
+                  Experience Section
+                 -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="business-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Cyber Security Analyst (Volunteer)</h4>
+                            <span>Cybertrust America</span>
+                            <p class="timeline-text">
+                                San Jose, California, USA
+                            </p>
+                            <p class="timeline-text">
+                                August 2024 — Present
+                            </p>
+                            <p>
+                                <ul class="timeline-experience-text">
+                                    <li><span>&#8226;</span>Performed vulnerability assessments on the organization’s website using OWASP ZAP, identifying security weaknesses.</li>
+                                    <li><span>&#8226;</span>Validated vulnerabilities using Burp Suite, ensuring accuracy by eliminating any false positives.</li>
+                                    <li><span>&#8226;</span>Collaborated on generating detailed reports of findings and provided recommendations to mitigate identified vulnerabilities.</li>
+                                    <li><span>&#8226;</span>Assisted in developing incident response plans and playbooks, and supported the implementation of IR recommendations.</li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Senior Executive (ETL Developer)</h4>
+                            <span>Vodafone Intelligent Solutions</span>
+                            <p class="timeline-text">
+                                Pune, Maharashtra, India
+                            </p>
+                            <p class="timeline-text">
+                                August 2020 — July 2022
+                            </p>
+                            <p>
+                                <ul class="timeline-experience-text">
+                                    <li><span>&#8226;</span>Reduced data processing time by 50% for multiple ETL processes through enhancements to existing shell scripts.</li>
+                                    <li><span>&#8226;</span>Achieved a 15% improvement in database performance by optimizing SQL queries and PL/SQL procedures.</li>
+                                    <li><span>&#8226;</span>Successfully migrated legacy Oracle reports to Qlik Sense, enabling faster access to data insights for better decision-making.</li>
+                                    <li><span>&#8226;</span>Conducted thorough code reviews and implemented best practices, leading to a 30% reduction in post-release bugs.</li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Web Backend Developer Intern</h4>
+                            <span>Orane Labs Private Limited</span>
+                            <p class="timeline-text">
+                                Pune, Maharashtra, India
+                            </p>
+                            <p class="timeline-text">
+                                January 2019 — June 2019
+                            </p>
+                            <p>
+                                <ul class="timeline-experience-text">
+                                    <li><span>&#8226;</span>Developed multiple web features using Python and the Flask Framework, resulting in a 60% increase in user engagement.</li>
+                                    <li><span>&#8226;</span>Utilized the Robot Framework for automated website testing, effectively reducing manual testing time.</li>
+                                    <li><span>&#8226;</span>Successfully fixed bugs in the website source code, enhancing overall stability.</li>
+                                    <li><span>&#8226;</span>Used Git for code management by handling branch creation, merging and conflict resolution for better team collaboration.</li>
+                                </ul>
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!--
+                  Education Section
+                 -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Master of Engineering in Cybersecurity</h4>
+                            <span>University of Maryland College Park</span>
+                            <p class="timeline-text">
+                                College Park, Maryland, USA
+                            </p>
+                            <p class="timeline-text">
+                                2022 — 2024
+                            </p>
+                            <p>
+                                <span>Courses Completed</span>
+                                <ul class="timeline-education-text" id="eduction-courses-list">
+                                    <li><span>&#8226;</span>Cloud Security</li>
+                                    <li><span>&#8226;</span>Network Security</li>
+                                    <li><span>&#8226;</span>Penetration Testing</li>
+                                    <li><span>&#8226;</span>Networks and Protocols</li>
+                                    <li><span>&#8226;</span>Secure Operating Systems</li>
+                                    <li><span>&#8226;</span>Reverse Software Engineering</li>
+                                    <li><span>&#8226;</span>Security Tools for Information Security</li>
+                                    <li><span>&#8226;</span>Digital Forensics and Incident Response</li>
+                                    <li><span>&#8226;</span>Hacking of C Programs and Unix Binaries</li>
+                                    <li><span>&#8226;</span>Advanced Hacking of Linux and Embedded Systems</li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Technology in Information Technology</h4>
+                            <span>Symbiosis Insititute of Technology</span>
+                            <p class="timeline-text">
+                                Pune, Maharashtra, India
+                            </p>
+                            <p class="timeline-text">
+                                2016 — 2020
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!--
+                  Technical Skills Section
+                 -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="laptop-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Technical Skills</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Security Tools</h4>
+                            <p class="timeline-text">Burp Suite, Wireshark, Nmap, Metasploit, OWASP ZAP, Splunk, GDB, Ghidra</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Programming Languages</h4>
+                            <p class="timeline-text">Bash Scripting, Python, C, SQL, PL/SQL</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Web</h4>
+                            <p class="timeline-text">HTML, CSS, Javascript</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Operating Systems</h4>
+                            <p class="timeline-text">Linux, Windows</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Cloud Platforms</h4>
+                            <p class="timeline-text">AWS, GCP</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Other Skills/Knowledge of</h4>
+                            <p class="timeline-text">MITRE ATT&CK, Scripting, Automation, Git, Microsoft Office, Google AppScript, Google Firebase</p>
+                        </li>
+                    </ol>
+                </section>
+
+
+                <!--
+                 Certifications Section
+                 -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="ribbon-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Certifications</h3>
+                    </div>
+                    <ul class="certifications-list content-card">
+                        <li class="certifications-item">
+                            <div class="certifications-img">
+                                <img src="./assets/images/sp_logo.png" alt="CompTIA Security+ Logo">
+                            </div>
+                            <span>CompTIA Security+</span>
+                        </li>
+                        <li class="certifications-item">
+                            <div class="certifications-img">
+                                <img src="./assets/images/isc_cc_logo.png" alt="ISC2 Certified in Cybersecurity Logo">
+                            </div>
+                            <span>ISC2 Certified in Cybersecurity (CC)</span>
+                        </li>
+                        <li class="certifications-item">
+                            <div class="certifications-img">
+                                <img src="./assets/images/peh_logo.png" alt="TCM Security Practical Ethical Hacking Logo">
+                            </div>
+                            <span>TCM Security Practical Ethical Hacking Course</span>
+                        </li>
+                    </ul>
+                </section>
+
+            </article>
+
+
+            <!--
+            - #PROJECTS
+            -->
+            
+            <!--
+            - Github Projects
+            -->
+            <article class="portfolio" data-page="projects">
+                <header>
+                    <h2 class="h2 article-title">Projects</h2>
+                </header>
+                <section class="projects">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </div>
+                        <h3 class="h3">Github Repos</h3>
+                    </div>
+                    <ul class="filter-list">
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Cybersecurity</button>
+                        </li>
+                    </ul>
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-selecct-value>Select category</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+                        <ul class="select-list">
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Cybersecurity</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-item  active" data-filter-item data-category="cybersecurity">
+                            <a href="https://github.com/vedanglad/HackTheBox-Penetration-Test-Reports" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/htb-pentest-git-repo.jpeg" alt="cybersecurity" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">HackTheBox Penetration Testing Reports</h3>
+                                <p class="project-category">Cybersecurity</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+
+                <!--
+                  Academic Projects Section
+                 -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="code-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Academic Projects</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title"><span>Penetration Testing Assessment</span></h4>
+
+                            <p>
+                                <ul class="timeline-projects-text">
+                                    <li><span>&#8226;</span>Conducted a comprehensive network security assessment within a dynamic Active Directory environment.</li>
+                                    <li><span>&#8226;</span>Utilized a diverse range of penetration testing tools to pinpoint and exploit critical vulnerabilities.</li>
+                                    <li><span>&#8226;</span>Crafted a thorough penetration testing report consolidating network enumeration and vulnerability exploitation findings.</li>
+                                    <li><span>&#8226;</span>Recommended measures that bolstered security resilience and risk mitigation within the network infrastructure.</li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title"><span>Digital Forensics: Investigating Anomalous Incidents </span></h4>
+
+                            <p>
+                                <ul class="timeline-projects-text">
+                                    <li><span>&#8226;</span>Conducted in-depth forensics assessment on a malware affected machine using Autopsy and Wireshark.</li>
+                                    <li><span>&#8226;</span>Performed detailed log collection and analysis of encoded network communications and user activities.</li>
+                                    <li><span>&#8226;</span>Prepared a concise, detailed forensic report summarizing findings, methodologies, and mitigation recommendations.</li>
+                                </ul>
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!--
+                  Publication Section
+                 -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="journal-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Publications</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title"><span>Data Acquisition Using IoT Sensors for Smart Manufacturing Domain</span></h4>
+
+                            <p>
+                                <ul class="timeline-publication-text">
+                                    <li><span>&#8226;</span>Implemented a real-time data acquisition system using Raspberry Pi to enable predictive maintenance capabilities.</li>
+                                    <li><span>&#8226;</span>Developed Python and Bash scripts to achieve automated sensor data collection and aggregation.</li>
+                                    <li><span>&#8226;</span>Implemented seamless upload of collected data to Google Cloud for storage and analysis.</li>
+                                    <li><span>&#8226;</span>Published project findings in IICT-2020 conference proceedings.</li>
+                                </ul>
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+            </article>
+        </div>
+    </main>
+
+    <!--
+    - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+    -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
