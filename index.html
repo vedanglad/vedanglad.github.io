@@ -8,7 +8,7 @@
     <!--
     - favicon
     -->
-    <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/profile/my-avatar.png" type="image/x-icon">
     <!--
     - custom css link
     -->
@@ -31,7 +31,7 @@
         <aside class="sidebar" data-sidebar>
             <div class="sidebar-info">
                 <figure class="avatar-box">
-                    <img src="./assets/images/my-avatar.jpg" alt="Vedang Lad" width="80">
+                    <img src="./assets/images/profile/my-avatar.jpg" alt="Vedang Lad" width="80">
                 </figure>
                 <div class="info-content">
                     <h1 class="name" title="Vedang Lad">Vedang Lad</h1>
@@ -67,18 +67,18 @@
                 <div class="separator"></div>
                 <ul class="social-list">
                     <li class="social-item">
-                        <a href="https://www.linkedin.com/in/vedang-lad" class="social-link">
+                        <a href="https://www.linkedin.com/in/vedang-lad" class="social-link" target="_blank">
                             <ion-icon name="logo-linkedin"></ion-icon>
                         </a>
                     </li>
                     <li class="social-item">
-                        <a href="https://github.com/vedanglad" class="social-link">
+                        <a href="https://github.com/vedanglad" class="social-link" target="_blank">
                             <ion-icon name="logo-github"></ion-icon>
                         </a>
                     </li>
                 </ul>
                 <div class="resume-download">
-                    <a href="./assets/resume/Resume_Vedang_Lad.pdf" download="Vedang_Lad_Resume.pdf" class="download-btn">
+                    <a href="./assets/resume/Resume_Vedang_Lad.pdf" download="Resume_Vedang_Lad.pdf" class="download-btn">
                         <ion-icon name="download-outline"></ion-icon>
                         Resume
                     </a>
@@ -318,19 +318,19 @@
                     <ul class="certifications-list content-card">
                         <li class="certifications-item">
                             <div class="certifications-img">
-                                <img src="./assets/images/sp_logo.png" alt="CompTIA Security+ Logo">
+                                <img src="./assets/images/certs/sp_logo.png" alt="CompTIA Security+ Logo">
                             </div>
                             <span>CompTIA Security+</span>
                         </li>
                         <li class="certifications-item">
                             <div class="certifications-img">
-                                <img src="./assets/images/isc_cc_logo.png" alt="ISC2 Certified in Cybersecurity Logo">
+                                <img src="./assets/images/certs/isc_cc_logo.png" alt="ISC2 Certified in Cybersecurity Logo">
                             </div>
                             <span>ISC2 Certified in Cybersecurity (CC)</span>
                         </li>
                         <li class="certifications-item">
                             <div class="certifications-img">
-                                <img src="./assets/images/peh_logo.png" alt="TCM Security Practical Ethical Hacking Logo">
+                                <img src="./assets/images/certs/peh_logo.png" alt="TCM Security Practical Ethical Hacking Logo">
                             </div>
                             <span>TCM Security Practical Ethical Hacking Course</span>
                         </li>
@@ -365,6 +365,9 @@
                         <li class="filter-item">
                             <button data-filter-btn>Cybersecurity</button>
                         </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Web Development</button>
+                        </li>
                     </ul>
                     <div class="filter-select-box">
                         <button class="filter-select" data-select>
@@ -380,6 +383,9 @@
                             <li class="select-item">
                                 <button data-select-item>Cybersecurity</button>
                             </li>
+                            <li class="select-item">
+                                <button data-select-item>Web Development</button>
+                            </li>
                         </ul>
                     </div>
                     <ul class="project-list">
@@ -389,10 +395,22 @@
                                     <div class="project-item-icon-box">
                                         <ion-icon name="eye-outline"></ion-icon>
                                     </div>
-                                    <img src="./assets/images/htb-pentest-git-repo.jpeg" alt="cybersecurity" loading="lazy">
+                                    <img src="./assets/images/git-repos/htb-pentest-git-repo.png" alt="cybersecurity" loading="lazy">
                                 </figure>
                                 <h3 class="project-title">HackTheBox Penetration Testing Reports</h3>
                                 <p class="project-category">Cybersecurity</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://github.com/vedanglad/vedanglad.github.io" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/git-repos/portfolio-website.png" alt="web development" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Portfolio Website</h3>
+                                <p class="project-category">Web Development</p>
                             </a>
                         </li>
                     </ul>
@@ -411,7 +429,7 @@
                     </div>
                     <ol class="timeline-list">
                         <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title"><span>Penetration Testing Assessment</span></h4>
+                            <h4 class="h4 timeline-item-title"><span>Network Security Assessment</span></h4>
 
                             <p>
                                 <ul class="timeline-projects-text">
@@ -448,7 +466,16 @@
                     </div>
                     <ol class="timeline-list">
                         <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title"><span>Data Acquisition Using IoT Sensors for Smart Manufacturing Domain</span></h4>
+                            <h4 class="h4 timeline-item-title">
+                                <span>Data Acquisition Using IoT Sensors for Smart Manufacturing Domain</span>
+                            </h4>
+                            <div class="publication-items">
+                                <a href="https://doi.org/10.1007/978-3-030-66218-9_46" class="publication-link" target="_blank">Springer Link</a>
+                                <a href="./assets/research/research-paper.pdf" download="Data_Acquisition_Using_IoT_Sensors_for_Smart_Manufacturing_Domain.pdf" class="publication-link" target="_blank">
+                                    Download Research Paper
+                                   <ion-icon name="download-outline"></ion-icon>
+                                </a>
+                            </div>
 
                             <p>
                                 <ul class="timeline-publication-text">
